@@ -31,7 +31,6 @@ class Command(BaseCommand):
 				json_data = json.load(f)  #returns json object as dictionary
 		
 		except IOError as e:
-
 			Print(e)
 		
 		if json_data['members']:
@@ -45,7 +44,6 @@ class Command(BaseCommand):
 				except Exception as e:  
 					user = None  
 					print(e)
-
 					
 				if user:
 
@@ -53,7 +51,6 @@ class Command(BaseCommand):
 					user.profile.u_id = data.get('id',None)
 					user.profile.time_zone = data.get('tz',None)
 					user.profile.save()
-
 					
 					if data['activity_periods']:
 

@@ -4,11 +4,16 @@ In this assignment we can insert dummy json data to db and we can access that da
 
 ### To insert dummy json data  ###
 
-python manage.py insertDummyJsonDataToDb --json_file [json file]
-
-Above command will parse the json file and create users .
-
 Sample structure of json file [Json file](https://drive.google.com/file/d/1xZa3UoXZ3uj2j0Q7653iBp1NrT0gKj0Y/view)
+
+
+```
+python manage.py insertDummyJsonDataToDb --json_file [json file]
+```
+
+Above command will parse the json file and create users and related data .
+
+
 
 ### We can access the users through api ###
 

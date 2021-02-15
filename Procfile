@@ -1,0 +1,1 @@
+web: gunicorn ftl_project.wsgi

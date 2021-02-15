@@ -1,6 +1,6 @@
 # FTL Assignment #
 
-In this assignment we can insert dummy json data to db and we can access that data through api.
+This assignment  is created in django framework.In this assignment we can insert dummy json data to db and we can access that data through api.
 
 ### To insert dummy json data  ###
 
